@@ -7,7 +7,8 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set termguicolors
 syntax on
 filetype plugin indent on
-colorscheme ayu
+# let ayucolor="mirage"
+colorscheme codedark
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
